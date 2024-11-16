@@ -9,8 +9,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        secondary: "#DCE0E1",
+        'gray-dark': "#333",
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      },
+      animation: {
+        fadeIn_1_5: 'fadeIn 1.5s ease',
       },
     },
   },

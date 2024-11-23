@@ -5,7 +5,7 @@ export function Navbar() {
     { href: "#inicio", text: "Início" },
     { href: "#sobre", text: "Sobre" },
     { href: "#procedimentos", text: "Procedimentos" },
-    { href: "#profissionais", text: "Profissionais" },
+    // { href: "#profissionais", text: "Profissionais" },
     { href: "#avaliacoes", text: "Avaliações" },
     { href: "#localizacao", text: "Localização" },
     { href: "#contato", text: "Contato" },

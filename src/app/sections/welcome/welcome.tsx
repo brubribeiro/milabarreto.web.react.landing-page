@@ -9,7 +9,7 @@ export function Welcome() {
           </div>
           <h1 className="text-2xl text-gray-dark font-bold">Transforme sua beleza conosco</h1>
           <p className="text-base mb-5">Experimente o mais alto padrão em tratamentos estéticos avançados</p>
-          <button className="bg-primary text-white py-[1.2rem] px-[2.5rem] rounded-[30px] text-[1.1rem] font-semibold cursor-pointer transition-transform duration-300 ease-in-out hover:bg-[#b99e71] hover:-translate-y-1 animate-pulse mt-4">
+          <button className="bg-primary text-white py-[1.2rem] px-[2.5rem] rounded-[30px] text-[1.1rem] font-semibold cursor-pointer transition-transform duration-300 ease-in-out hover:bg-[#b99e71] hover:-translate-y-1 animate-pulseShadow mt-4">
             Agendar Consulta
           </button>
         </div>

@@ -19,8 +19,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={montserrat.className}>{children}</body>
+    <html lang="en" className="scroll-smooth">
+      <script
+        src="https://static.elfsight.com/platform/platform.js"
+        async
+      ></script>
+      <body className={`${montserrat.className}`}>{children}</body>
     </html>
   );
 }

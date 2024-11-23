@@ -43,7 +43,7 @@ export function Contact() {
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-white text-lg px-6 py-3 rounded-full bg-primary shadow-lg transform transition-all hover:translate-y-[-3px] hover:shadow-xl hover:bg-secondary hover:text-white min-w-[200px]"
             >
-              <Image src={'/whatsapp_contact.svg'} alt="Ícone whatsapp" width={20} height={20}/>
+              <Image src={'/whatsapp.svg'} alt="Ícone whatsapp" width={20} height={20}/>
               <span>WhatsApp</span>
             </a>
           </div>

@@ -18,15 +18,26 @@ export default {
           "0%": { opacity: "0" },
           "100%": { opacity: "1" },
         },
-        pulse: {
+        pulseShadow: {
           "0%": { "box-shadow": "0 0 0 0 rgba(207, 180, 137, 0.4)" },
           "70%": { "box-shadow": "0 0 0 10px rgba(207, 180, 137, 0)" },
           "100%": { "box-shadow": "0 0 0 0 rgba(207, 180, 137, 0)" },
         },
+        pulseWhatsApp: {
+          "0%": {"boxShadow": "0 0 0 0 rgba(37, 211, 102, 0.5)"},
+          "70%": { "boxShadow": "0 0 0 15px rgba(37, 211, 102, 0)"},
+          "100%": { "boxShadow": "0 0 0 0 rgba(37, 211, 102, 0)"},
+        },
+        slideInRight: {
+          "0%": { opacity: "0", transform: 'translateX(50px)' },
+          "100%": { opacity: "1", transform: 'translateX(0)' },
+        },
       },
       animation: {
         fadeIn_1_5: "fadeIn 1.5s ease",
-        pulse: "pulse 2s infinite",
+        pulseShadow: "pulse 2s infinite",
+        pulseWhatsapp: "pulseWhatsApp 2s infinite",
+        slideInRight: 'slideInRight 0.8s ease forwards',
       },
     },
   },

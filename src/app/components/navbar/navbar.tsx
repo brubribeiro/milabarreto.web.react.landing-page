@@ -23,17 +23,17 @@ export function Navbar() {
   );
 
   return (
-    <nav className="fixed w-full shadow-md px-12 h-[96px] bg-primary flex justify-between items-center z-50">
-    <div className="text-white text-2xl font-bold">
+    <nav className="hidden sm:flex fixed w-full shadow-md px-12 h-[96px] bg-primary justify-between items-center z-50">
+      <div className="text-white text-2xl font-bold">
         <Image src={"/milabarreto_logo.png"} alt="Logo da clínica" width={200} height={50} />
-    </div>
-    <ul className="flex gap-8">
+      </div>
+      <ul className="flex gap-8">
         {links.map((link) => (
           <li key={link.href}>
             <NavLink href={link.href} text={link.text} />
           </li>
         ))}
       </ul>
-</nav>
+    </nav>
   )
 }

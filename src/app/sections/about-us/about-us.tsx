@@ -6,9 +6,12 @@ export function AboutUs() {
       <div className='max-w-5xl w-full'>
         <h2 className="text-center text-3xl sm:text-4xl mb-8 sm:mb-12 text-gray-dark font-bold">Sobre nossa Clínica</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 items-center">
-          <div className="about-text">
+          <div className="about-text flex flex-col gap-2">
             <h3>Excelência em Estética Avançada</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu leo consectetur lorem pharetra consequat nec eu augue. Morbi maximus odio sed metus cursus molestie. Sed a malesuada diam, a euismod turpis. Duis vel urna non nisl congue convallis. Ut tincidunt, dolor eu bibendum sodales, risus ipsum condimentum orci, sed consectetur velit ex eleifend velit. In ligula eros, pretium in dignissim egestas, tempor et ante. Suspendisse libero erat, efficitur lacinia lorem ac, condimentum sollicitudin ligula. Sed dignissim purus iaculis varius commodo. Etiam hendrerit velit ipsum, vel imperdiet leo condimentum eu. Sed facilisis mauris lectus, id dictum tortor aliquet vitae. Sed rhoncus mollis magna, in tristique ante. Phasellus id malesuada lacus, ac rutrum tellus.</p>
+            <p>Mila Barreto Estética Avançada é uma clínica recém inaugurada e fundada pela biomédica especializada em estética, Camila Barreto.</p>
+            <p>Com dois anos de experiência na área, Camila traz uma bagagem sólida, incluindo residência em harmonização orofacial e diversos cursos voltados para as mais modernas técnicas estéticas. Agora, ela realiza o sonho de liderar seu próprio espaço, unindo conhecimento técnico e paixão pelo cuidado com a autoestima de seus pacientes.</p>
+            <p>Ao lado de Beatriz Vitorino, esteticista e cosmetóloga pós-graduada em saúde estética, a clínica oferece uma ampla gama de tratamentos com procedimentos faciais, corporais e capilares.</p>
+            <p>A clínica tem como diferencial o uso de tecnologias avançadas e produtos de alta qualidade, garantindo segurança e excelência em cada atendimento.</p>
           </div>
           <div className="hidden sm:block">
             <GradientCircle />

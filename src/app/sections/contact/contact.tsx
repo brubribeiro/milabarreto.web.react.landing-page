@@ -29,13 +29,13 @@ export function Contact() {
               <span>@dra.milabarreto</span>
             </a>
             <a
-              href="https://www.tiktok.com/@esteticaavancada"
+              href="https://www.tiktok.com/@milabarretoea"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-white text-lg px-6 py-3 rounded-full bg-primary shadow-lg transform transition-all hover:translate-y-[-3px] hover:shadow-xl hover:bg-secondary hover:text-white min-w-[200px]"
             >
               <Image src={'/tiktok.svg'} alt="Ícone tiktok" width={20} height={20}/>
-              <span>@esteticaavancada</span>
+              <span>@milabarretoea</span>
             </a>
             <a
               href="https://wa.me/5511963130417"

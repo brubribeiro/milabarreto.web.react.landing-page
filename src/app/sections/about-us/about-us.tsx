@@ -2,7 +2,7 @@ import { GradientCircle } from '@/app/components/gradient-circle/gradient-circle
 
 export function AboutUs() {
   return (
-    <section className="h-[100vh] py-16 sm:py-[200px] px-6 sm:px-8 relative bg-gradient-to-br from-white to-secondary flex justify-center" id="sobre">
+    <section className="min-h-[100vh] py-16 sm:py-[200px] px-6 sm:px-8 relative bg-gradient-to-br from-white to-secondary flex justify-center" id="sobre">
       <div className='max-w-5xl w-full'>
         <h2 className="text-center text-3xl sm:text-4xl mb-8 sm:mb-12 text-gray-dark font-bold">Sobre nossa Clínica</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 items-center">

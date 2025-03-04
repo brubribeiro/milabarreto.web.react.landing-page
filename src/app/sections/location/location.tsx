@@ -1,7 +1,7 @@
 export function Location() {
   return (
     <section
-      className="h-[100vh] py-16 sm:py-[200px] px-6 sm:px-8 bg-white"
+      className="min-h-[100vh] py-16 sm:py-[200px] px-6 sm:px-8 bg-white"
       id="localizacao">
       <h2 className="text-center text-4xl mb-12 text-gray-dark font-bold">
         Nossa Localização

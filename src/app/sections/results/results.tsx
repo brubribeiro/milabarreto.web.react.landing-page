@@ -1,16 +1,16 @@
 export function Results() {
   const resultsData = [
     {
-      procedure: "Harmonização Facial",
-      image: "before1.jpg",
+      procedure: "Preenchimento Labial",
+      image: "/labial.jpeg",
     },
     {
-      procedure: "Tratamento Corporal",
-      image: "before2.jpg",
+      procedure: "Preenchimento de Olheira",
+      image: "/olheira.jpeg",
     },
     {
-      procedure: "Rejuvenescimento",
-      image: "before3.jpg",
+      procedure: "Rinomodelação",
+      image: "/rino.jpeg",
     },
   ];
 
